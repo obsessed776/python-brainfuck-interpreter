@@ -54,5 +54,8 @@ def interpreter(raw_code):
 
     
 if __name__ == "__main__":
-    raw_code = read_file("sum_two_numbers.bf")
+    # raw_code = read_file("hi_python_cyrillic.bf")
+    # raw_code = read_file("simple_hello_world.bf")
+    # raw_code = read_file("sum_two_numbers.bf")
+    raw_code = read_file("helloworld.bf")
     interpreter(raw_code)
