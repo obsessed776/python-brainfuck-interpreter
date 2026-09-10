@@ -7,6 +7,11 @@ def read_file(filename):
             .replace(" ", "")
         )
 
-
+ 
+def interpreter(raw_code):
+    pass
+    
+ 
 if __name__ == "__main__":
-    print(read_file("helloworld.bf"))
+    raw_code = read_file("helloworld.bf")
+    
