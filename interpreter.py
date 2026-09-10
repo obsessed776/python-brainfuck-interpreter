@@ -27,10 +27,12 @@ def interpreter(raw_code):
                 memory[memory_pointer] -= 1
             case ".":
                 print(chr(memory[memory_pointer]), end="")
+            case ",":
+                memory[memory_pointer] = int(input("Input: "))
             
         pointer += 1
 
     
 if __name__ == "__main__":
-    raw_code = read_file("helloworld.bf")
+    raw_code = read_file("getting_input.bf")
     interpreter(raw_code)
