@@ -1,3 +1,4 @@
+# Text that should be printed by Brainfuck
 origin_text = "Hello, world!"
 
 result = ""
